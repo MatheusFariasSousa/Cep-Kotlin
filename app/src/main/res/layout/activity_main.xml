@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_cep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Cep"
+        android:inputType="number"
+        android:textSize="35sp"
+        android:maxLength="8"
+        />
+
+    <Button
+        android:id="@+id/button_busca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/black"
+        android:text="Busca"
+        android:textSize="25sp"
+        android:translationX="250dp" />
+
+    <TextView
+        android:id="@+id/text_logradouro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="logradouro"
+        android:textSize="25sp"
+        android:layout_margin="15sp"/>
+
+    <TextView
+        android:id="@+id/text_bairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="bairro"
+        android:textSize="25sp"
+        android:layout_margin="15sp"/>
+
+    <TextView
+        android:id="@+id/text_localidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="localidade"
+        android:textSize="25sp"
+        android:layout_margin="15sp"/>
+
+    <TextView
+        android:id="@+id/text_uf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="uf"
+        android:textSize="25sp"
+        android:layout_margin="15sp"/>
+
+
+
+
+</LinearLayout>
